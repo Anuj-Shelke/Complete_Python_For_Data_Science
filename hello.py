@@ -1,6 +1,7 @@
-#Python program to print avg of two numbers 
-a = int(input("Enter number 1 : "))
-b = int(input("Enter number 2 : "))
-c = (a+b)
-avg = c/2
-c = print("The avg of the two numbers enered is ",avg)
+print("Enter your name")
+name = input()
+print(f"Good after noon {name}")
+print(f"Hello {name}")
+print(f"Nice to see you {name}")
+print(f"Welcome to our website {name}")
+print(f"Now {name} Understood Format string closely ")
