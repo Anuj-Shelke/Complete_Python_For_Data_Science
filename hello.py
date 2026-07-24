@@ -1,10 +1,10 @@
-#Starting with For loop   ;
-n = int(input("Enter number to generate the sum of "))
-i = 0 
-sum = 0 
+#Program to print the Factorial of number   ;
+n = int(input("Enter number to generate the Factorial of  "))
+i = 1
+mul = 1
 while(i<=n):
-    sum +=i
+    mul *=i
     i+=1
-print("The sum is ",sum)
+print("The factorial  is ",mul)
 
 
