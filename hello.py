@@ -1,10 +1,11 @@
-words = {
-    "Morning" : "Subha",
-    "Afternoon": "Dopher",
-    "Night": "Raat"
+#Write a program to give Different inputs to same key and see what happens
+d ={}
+name = input("Enter Your name")
+lang = input("Enter Your Language")
+d.update({name:lang})
+name = input("Enter Your name")
+lang = input("Enter Your Language")
+d.update({name:lang})
+print(d)
 
-}
-key = input("Enter the word you want to know the meaning of ")
-print(words[key])
-print(words["Night"])
 
