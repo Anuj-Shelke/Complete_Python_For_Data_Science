@@ -1,15 +1,19 @@
-fruit = []
-f1 = input("Enter Name of Fruit")
-fruit.append(f1)
-f2 = input("Enter Name of Fruit")
-fruit.append(f2)
-f3 = input("Enter Name of Fruit")
-fruit.append(f3)
-f4 = input("Enter Name of Fruit")
-fruit.append(f4)
-f5 = input("Enter Name of Fruit")
-fruit.append(f5)
-f6 = input("Enter Name of Fruit")
-fruit.append(f6)
-print(fruit)
+Marks = []
+f1 =  int(input("Enter Your marks "))
+Marks.append(f1)
+f2 = int(input("Enter Your marks "))
+Marks.append(f2)
+f3 = int(input("Enter Your marks "))
+Marks.append(f3)
+f4 = int(input("Enter Your marks "))
+Marks.append(f4)
+f5 = int(input("Enter Your marks "))
+Marks.append(f5)
+f6 = int(input("Enter Your marks "))
+Marks.append(f6)
+
+Marks.sort()
+print(sum(Marks))
+
+print(Marks)
 
