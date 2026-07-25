@@ -1,6 +1,1 @@
-name = input("Enter Your name")
-# lang = input("Enter Your Language")
-# d.update({name:lang})
-# name = input("Enter Your name")
-# lang = input("Enter Your Language")
-# d.update({name:lang})
+data = f.write("\n And he is doing engineering  ")
