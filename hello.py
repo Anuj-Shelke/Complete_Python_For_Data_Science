@@ -1,17 +1,26 @@
-#Write a program to print multiplication table from 2 to 20 and store it in different files place this foler in files 
+#OOPs in Python 
+class programmer:
+    def __init__(self,n):
+        self.n = n 
 
-def table_writer(n):
-    table =""
-    for i in range(1,11):
-        table +=(f"{i}X{n} = {i*n}\n")
+    def square(self):
+        print("The square of the number is :",self.n*self.n)
+    def cube(self):
+        print("The cube of the number is :",self.n*self.n*self.n)
+    def square_root(self):
+        print("The square root of num is :",self.n**0.5)
+    
+    
+print("Enter number to get all the parameters of :")
+n= int(input("Enter the number "))
+num = programmer(n)
+num.square()
+num.cube()
+num.square_root()
 
-    with open(f"table/table_{n}", "w") as f:
-        f.write(table)
 
 
 
-for i in range(1,21):
-    table_writer(i)
 
 
 
